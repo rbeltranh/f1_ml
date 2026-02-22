@@ -4,3 +4,6 @@ setup:
 
 install:
 	pip3 install requirements.txt
+
+update_reqs:
+	pip freeze > requirements.txt
